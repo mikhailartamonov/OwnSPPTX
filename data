@@ -1,8 +1,8 @@
 settings:
 languageCode ru-RU
 profanityFilter false
-rawResults true
+rawResults false
 def_t min
-def_l 10
-key 0
-cloud 0
+def_l 2
+key __ENV__
+cloud __ENV__

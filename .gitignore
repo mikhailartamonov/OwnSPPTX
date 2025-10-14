@@ -1,0 +1,27 @@
+# Local secrets
+.env
+*.env
+config.env
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Credentials and secrets
+*.pem
+*.key
+data.bak
+
+# Runtime artifacts
+params.json
+def_*.sh
+ready_tst_*
+.retry_*
+def_logs
+logs/
+text/
+email.temp
+list
+new_spttx.sh
+scripts/rotate_keys.sh
