@@ -1,0 +1,28 @@
+# Data and temp files
+*.log
+*.bak
+*.bak.*
+*.swp
+*.swo
+*.conf
+*.status
+*.meta
+spttx_data/.env
+spttx_data/text/
+spttx_data/def_logs
+spttx_data/ready_*
+spttx_data/def_*
+spttx_data/.retry_*
+spttx_data/params.json
+spttx_data/.git/
+
+# Backup files
+js/*.bak.*
+lib/Controller/*.bak
+lib/Service/*.bak
+scripts/*.bak
+appinfo/*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
